@@ -615,6 +615,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^22.8.4":
+  version: 22.8.4
+  resolution: "@types/node@npm:22.8.4"
+  dependencies:
+    undici-types: "npm:~6.19.8"
+  checksum: 10c0/f88d030480630194a9168772462ec09b2d86454f34368c46d2b7fda5dc6e14594b1576fcc5c35cc53b57a4d1e8dd2865a85ae81f34ded0d1af753a0f5d294c25
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.13
   resolution: "@types/prop-types@npm:15.7.13"
@@ -1938,6 +1947,7 @@ __metadata:
   resolution: "opensplit-web@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.13.0"
+    "@types/node": "npm:^22.8.4"
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.1"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
@@ -2450,6 +2460,13 @@ __metadata:
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.8":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 
